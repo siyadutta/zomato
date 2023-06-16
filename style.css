@@ -1,0 +1,248 @@
+/* Common Elements */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#top{
+    position: fixed;
+    right: 30px;
+    bottom: 15px;
+}
+
+.hr1{
+    border: 2px;
+    border-color: rgb(197, 0, 0);
+    border-style: solid;
+    margin: 0;
+    opacity: 1;
+}
+
+.maintitle{
+    font-family: 'Lobster', cursive;
+    color: white;
+    font-size: 110px;
+    text-align: center;
+}
+
+.subtitle1{
+    font-family: 'Lobster', cursive;
+    color: white;
+    font-size: 35px;
+    text-align: center;   
+}
+
+.subtitle2{
+    font-family: 'Lobster', cursive;
+    color: white;
+    font-size: 45px;
+    text-align: center;   
+}
+
+.servicesh1{
+    font-family: 'Lobster', cursive;
+    color: rgb(197, 0, 0);
+    font-size: 45px;
+    text-align: center;
+}
+
+/* Navigation Bar CSS Starts Here */
+
+#navbar{
+    display: flex;
+    background-color: rgb(170, 111, 71);
+    height: 80px;
+    align-items: center;
+    font-family: 'Abril Fatface', cursive;  
+    position: sticky; 
+    top: 0;
+}
+
+/* Logo  */
+
+#logo{
+    width: 15%;
+}
+
+
+#logoimg{
+    height: 55px;
+    margin: 12px 40px;
+    border-radius: 22px;
+}
+
+/* Navigation links  */
+
+#navlinks{
+    width: 60%;
+}
+
+#links{
+    display: flex;
+    list-style: none;
+    justify-content: center
+}
+
+.linkitem{
+
+}
+
+.linka{
+    padding: 10px;
+    margin: 15px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+}
+
+.linka:hover{
+    background-color: rgb(250, 218, 192);
+    color: rgb(46, 46, 46);
+    transition: 1s;
+}
+
+.currentpage{
+    border: 2px solid white;
+    border-radius: 20px;
+}
+
+/* Social Media Links  */
+
+#socialmedia{
+margin-left: 200px;
+text-align: center;
+margin: auto;
+}
+
+#socialmedia img{
+    border-radius: 10px;
+}
+
+#socialmedia img:hover{
+    transform: scale(1.2);
+    box-shadow: 0px 0px 25px 0px rgb(255, 244, 189);;
+    transition: 1s;
+}
+
+/* Navigation Bar CSS Starts Here */
+
+
+/* Home Content CSS Starts Here  */
+
+#homecontent{
+    background-image: url(platter.jpg);
+    background-size: cover;
+    height: 700px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* Home Content CSS Ends Here  */
+
+/* Facilities CSS Starts Here  */
+
+#facilities{
+    display: flex;
+    justify-content: space-around;
+    height: 300px;
+    background-color: rgb(41, 26, 10);
+}
+
+.facilityclass{
+    text-align: center;
+    margin-top: 25px;
+}
+
+#facilities img{
+    height: 150px;
+}
+
+.facilitiespara1{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.facilitiespara2{
+    font-family: 'Poppins', sans-serif;
+    color:  rgb(255, 231, 205);
+    font-size: 13px;
+}
+/* Facilities CSS Ends Here  */
+
+
+
+
+/* Footer CSS starts here */
+
+#footer{
+    display: flex;
+    background-color: rgb(170, 111, 71);
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    line-height: 60px;
+    font-family: 'Abril Fatface', cursive;
+    color: white;
+}
+
+
+/* Services CSS Starts Here */
+
+#servicescontent{
+    background-color: rgb(243, 209, 147);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.servicesbox{
+    width: 700px;
+    height: 510px;
+    border: 2px solid rgb(197, 0, 0);
+    border-radius: 25px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.servicesbox img{
+    border-radius: 25px;
+}
+
+.servicesbox h5{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.servicesbox p{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 25px;
+}
+
+/* Services CSS Ends Here */
+
+
+
+/* Contact Us CSS Starts Here */
+#contactuscontent{
+    background-image: url(contactfood.jpg);
+    height: 450px;
+    background-position: bottom;
+}
+
+#contactfood{
+    font-family: 'Lobster', cursive;
+    color: rgb(255, 255, 255);
+    font-size: 65px;
+    text-align: center;
+    line-height: 150px;
+}
+
+
+/* Contact Us CSS Ends Here */
